@@ -19,104 +19,531 @@
 
     <title>Chattala Chaka</title>
   </head>
-  <body class="flex justify-center">
-    <header class="raleway-800 w-3/4">
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+  <body>
+    <header class="raleway-800 flex justify-center">
+      <div class="w-[90%]">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a>Home </a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li><a>Home </a></li>
+            <a class="font-bold text-3xl">Chattala Chaka</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Destination</a></li>
               <li><a>Search</a></li>
             </ul>
           </div>
-          <a class="font-extrabold text-4xl">Chattala Chaka</a>
+          <div class="navbar-end">
+            <a
+              class="btn border-2 border-[#1DD100] bg-[#1DD10040] font-bold text-[#1DD100]"
+              >Bus <i class="fa-solid fa-bus"></i>
+            </a>
+          </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Home </a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Destination</a></li>
-            <li><a>Search</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a
-            class="btn border-2 border-[#1DD100] bg-[#1DD10040] font-extrabold text-[#1DD100]"
-            >Bus <i class="fa-solid fa-bus"></i>
-          </a>
-        </div>
-      </div>
 
-      <div
-        class="hero min-h-screen rounded-3xl"
-        style="background-image: url(./images/banner.png)"
-      >
-        <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
-              End-to-End Travel with
-              <span class="text-[#1DD100]">Chattala Chaka</span>
-            </h1>
-            <p class="mb-5">
-              Yes, you can run unit tests and view the results directly within
-              the app. The integrated testing features allow for a streamlined .
-            </p>
-            <button class="btn btn-primary bg-[#1DD100] text-black">
-              Buy Tickets
-            </button>
+        <div
+          class="hero min-h-screen rounded-3xl"
+          style="background-image: url(./images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">
+                End-to-End Travel with
+                <span class="text-[#1DD100]">Chattala Chaka</span>
+              </h1>
+              <p class="mb-5">
+                Yes, you can run unit tests and view the results directly within
+                the app. The integrated testing features allow for a streamlined
+                .
+              </p>
+              <button class="btn btn-primary bg-[#1DD100] text-black">
+                Buy Tickets
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="flex justify-center mt-[-26px]">
-        <div class="bg-white p-4 border-b-4 border-[#1DD100] rounded-3xl flex">
-          <img src="./images/people.png" alt="" />
-          <div>
-            <h3 class="font-bold text-3xl">500K+</h3>
-            <p class="text-gray-500">Registered Users</p>
+        <div class="flex justify-center mt-[-26px]">
+          <div
+            class="bg-white p-4 border-b-4 border-[#1DD100] rounded-3xl flex mr-6"
+          >
+            <img class="mr-4" src="./images/people.png" alt="" />
+            <div>
+              <h3 class="font-bold text-3xl">500K+</h3>
+              <p class="text-gray-500">Registered Users</p>
+            </div>
           </div>
-        </div>
-        <div class="bg-white p-4 border-b-4 border-[#1DD100] rounded-3xl flex">
-          <img src="./images/ticket-cupon.png" alt="" />
-          <div>
-            <h3 class="font-bold text-3xl">1.7 lacks</h3>
-            <p class="text-gray-500">Tickets sold</p>
+          <div
+            class="bg-white p-4 border-b-4 border-[#1DD100] rounded-3xl flex mr-6"
+          >
+            <img class="mr-4" src="./images/ticket-cupon.png" alt="" />
+            <div>
+              <h3 class="font-bold text-3xl">1.7 lacks</h3>
+              <p class="text-gray-500">Tickets sold</p>
+            </div>
           </div>
-        </div>
-        <div class="bg-white p-4 border-b-4 border-[#1DD100] rounded-3xl flex">
-          <img src="./images/stoppage.png" alt="" />
-          <div>
-            <h3 class="font-bold text-3xl">80K+</h3>
-            <p class="text-gray-500">Rental partners</p>
+          <div
+            class="bg-white p-4 border-b-4 border-[#1DD100] rounded-3xl flex mr-6"
+          >
+            <img class="mr-4" src="./images/stoppage.png" alt="" />
+            <div>
+              <h3 class="font-bold text-3xl">80K+</h3>
+              <p class="text-gray-500">Rental partners</p>
+            </div>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section>
-        <h1>Best offers for you</h1>
+      <section class="flex justify-center">
+        <!-- best offer section container  -->
+        <div class="w-[90%]s">
+          <div class="text-center mb-20">
+            <h1 class="mt-32 font-bold text-4xl">Best offers for you</h1>
+          </div>
+
+          <div class="flex justify-center gap-5">
+            <div class="bg-[#FFBF0F] flex rounded-2xl">
+              <div class="flex items-center justify-center">
+                <div class="ml-3">
+                  <h2 class="text-4xl font-bold">15% OFF</h2>
+                  <h4 class="font-bold">on your next purchase</h4>
+                  <p class="text-gray-600">use by January 2024</p>
+                </div>
+              </div>
+              <div>
+                <img src="./images/cupon-devider.png" alt="" />
+              </div>
+
+              <div class="flex items-center justify-center">
+                <div class="ml-3 mr-5">
+                  <h2 class="text-4xl font-bold">NEW15</h2>
+                  <p class="text-gray-600">Coupon Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="bg-[#F78C9C] flex rounded-2xl">
+              <div class="flex items-center justify-center">
+                <div class="ml-3">
+                  <h2 class="text-4xl font-bold">20% OFF</h2>
+                  <h4 class="font-bold">on your next purchase</h4>
+                  <p class="text-gray-600">use by January 2024</p>
+                </div>
+              </div>
+              <div>
+                <img src="./images/cupon-devider.png" alt="" />
+              </div>
+
+              <div class="flex items-center justify-center">
+                <div class="ml-3 mr-5">
+                  <h2 class="text-4xl font-bold">Couple 20</h2>
+                  <p class="text-gray-600">Coupon Code</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-9 mb-10">
+            <button
+              class="btn border-2 border-[#1DD100] bg-white font-bold text-[#1DD100]"
+            >
+              See All Offers
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-gray-100 rounded-t-3xl border-t-4 border-[#1DD100]">
+        <div class="text-center pb-10">
+          <h1 class="mt-32 font-bold text-4xl mb-2">Chattala Chaka</h1>
+          <p class="text-gray-500">
+            Yes, you can run unit tests and view the results directly within the
+            app. The integrated testing features allow for a streamlined .
+          </p>
+        </div>
+        <!-- ticket view section  -->
+        <div class="flex justify-center">
+          <!-- ticket view container -->
+          <div class="bg-white w-[90%] rounded-3xl flex">
+            <div class="p-8 w-[70%] flex flex-col justify-between">
+              <div class="flex justify-between">
+                <div class="flex">
+                  <div>
+                    <img class="mr-3" src="./images/bus-logo.png" alt="" />
+                  </div>
+                  <div>
+                    <h1 class="font-bold text-3xl">Greenline Paribahan</h1>
+                    <p class="text-[#03071260]">Coach-009-WEB ! AC_Business</p>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    class="btn border-2 border-[#1DD100] bg-[#1DD10040] font-extrabold text-[#1DD100]"
+                  >
+                    <img src="./images/seat-green.png" /> 40 Seats left
+                  </button>
+                </div>
+              </div>
+              <div class="bg-[#F7F8F8] p-5 rounded-2xl mt-2">
+                <div
+                  class="border-b-2 border-dashed pb-5 flex justify-between mt-2"
+                >
+                  <p>Route</p>
+                  <p class="font-bold">Fatickchari to Oxygen</p>
+                </div>
+                <div
+                  class="border-b-2 border-dashed pb-5 flex justify-between mt-2"
+                >
+                  <p>Departure Time</p>
+                  <p class="font-bold">9:00 PM</p>
+                </div>
+                <div class="pb-5 pt-5 flex justify-between gap-3">
+                  <button class="btn bg-[#03071205]">
+                    Boarding Point - Bibir Hat
+                  </button>
+                  <button class="btn bg-[#03071205]">
+                    Dropping Point - Oxygen
+                  </button>
+                  <button class="btn bg-[#03071205]">
+                    Est. Time - 40 mins
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./images/info-devider.png" alt="" />
+            </div>
+            <div class="flex justify-center flex-grow items-center">
+              <div class="flex items-center flex-col">
+                <img class="mb-4" src="./images/fare.png" alt="" />
+                <h2 class="font-bold text-3xl mb-2">550 Taka</h2>
+                <p class="text-[#03071260]">Per Seat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- seat selector div -->
+        <div class="flex justify-center mt-5">
+          <div class="bg-white w-[90%] p-4 rounded-3xl flex justify-center">
+            <!-- bus seats layout -->
+            <div class="w-[65%]">
+              <div class="pt-4">
+                <div class="border-r-2 border-dashed">
+                  <h2
+                    class="border-b-2 mr-4 border-dashed font-semibold text-2xl"
+                  >
+                    Select Your Seat
+                  </h2>
+                </div>
+                <div
+                  class="flex justify-between pt-2 pr-4 border-b-2 mr-4 mt-2 border-dashed pb-2"
+                >
+                  <div class="flex">
+                    <img class="mr-1" src="./images/seat-green.png" alt="" />
+                    <p>Available</p>
+                  </div>
+                  <div class="flex">
+                    <img
+                      class="mr-1"
+                      src="./images/seat-green-filled.png"
+                      alt=""
+                    />
+                    <p class="text-[#1DD100]">Selected</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="grid grid-cols-10 mt-4 gap-y-6">
+                  <div class="col-span-8"></div>
+                  <div class="p-1 col-span-2">
+                    <div class="p-4 pr-6 pl-9 rounded-md">
+                      <img src="./images/wheel.png" alt="" />
+                    </div>
+                  </div>
+
+                  <kbd>A</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">A1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">A2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">A3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">A4</kbd>
+                  </div>
+                  <kbd>B</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">B1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">B2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">B3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">B4</kbd>
+                  </div>
+                  <kbd>C</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">C1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">C2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">C3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">C4</kbd>
+                  </div>
+                  <kbd>D</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">D1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">D2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">D3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">D4</kbd>
+                  </div>
+                  <kbd>E</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">E1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">E2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">E3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">E4</kbd>
+                  </div>
+                  <kbd>F</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">F1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">F2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">F3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">F4</kbd>
+                  </div>
+                  <kbd>G</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">G1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">G2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">G3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">G4</kbd>
+                  </div>
+                  <kbd>H</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">H1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">H2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">H3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">H4</kbd>
+                  </div>
+                  <kbd>I</kbd>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">I1</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">I2</kbd>
+                  </div>
+                  <div></div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">I3</kbd>
+                  </div>
+                  <div class="p-1 col-span-2">
+                    <kbd class="p-4 pr-9 pl-9 rounded-md bg-gray-100">I4</kbd>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price calculation and form div  -->
+            <div class="w-[35%]">
+              <div class="p-3">
+                <h2 class="border-b-2 border-dashed font-semibold text-2xl">
+                  Select Your Seat
+                </h2>
+                <!-- list items -->
+                <div class="grid grid-cols-3 bg-gray-100 rounded-t-xl p-3 mt-4">
+                  <div>
+                    <p class="font-semibold">
+                      Seat
+                      <span class="bg-[#1DD100] rounded-md pr-1 pl-1">2</span>
+                    </p>
+                  </div>
+                  <div><p class="font-semibold">Class</p></div>
+                  <div><p class="font-semibold">Price</p></div>
+                  <div class="col-span-3 border-b-2 border-dashed mt-1"></div>
+                  <div>
+                    <p class="text-gray-400">C2</p>
+                  </div>
+                  <div><p class="text-gray-400">Economy</p></div>
+                  <div><p class="text-gray-400">550</p></div>
+                  <div>
+                    <p class="text-gray-400">C2</p>
+                  </div>
+                  <div><p class="text-gray-400">Economy</p></div>
+                  <div><p class="text-gray-400">550</p></div>
+                  <div class="col-span-3 border-b-2 mt-1"></div>
+                </div>
+                <div
+                  class="grid grid-cols-3 bg-gray-100 rounded-b-xl rounded- p-3"
+                >
+                  <div class="font-semibold col-span-2">
+                    <p>Total Price</p>
+                  </div>
+                  <div><p class="font-semibold">BDT 1100</p></div>
+                  <div class="col-span-3 mt-2 mb-2">
+                    <label class="input input-bordered flex items-center gap-2">
+                      <input type="text" class="grow" placeholder="Search" />
+                      <span class="badge badge-info bg-[#1DD100] p-3 text-white"
+                        >Apply</span
+                      >
+                    </label>
+                  </div>
+                  <div class="font-semibold col-span-2"><p>Grant Price</p></div>
+                  <div><p class="font-semibold">BDT 1100</p></div>
+                </div>
+                <div class="mt-3 space-y-5">
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">Passenger Name *</span>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter your Name"
+                      class="input input-bordered w-full max-w-xs"
+                    />
+                  </label>
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">Passenger Phone Number *</span>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter your Phone Number"
+                      class="input input-bordered w-full max-w-xs"
+                    />
+                  </label>
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">Email ID</span>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter your email ID"
+                      class="input input-bordered w-full max-w-xs"
+                    />
+                  </label>
+                  <button class="btn w-full bg-[#1DD100] text-white">
+                    Next
+                  </button>
+                  <div class="flex justify-around">
+                    <p class="text-gray-400 underline">Terms and Conditions</p>
+                    <p class="text-gray-400 underline">Cancellation Policy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <footer class="bg-black text-center text-white flex justify-center">
+      <div class="w-[90%]">
+        <div
+          class="text-start mt-10 pb-10 border-b-2 border-white border-dashed"
+        >
+          <div class="flex justify-between">
+            <div class="">
+              <h1><a class="font-bold text-3xl">Chattala Chaka</a></h1>
+              <p>
+                Chattala Chaka is a digital platform to make your daily
+                commuting better.
+              </p>
+            </div>
+            <div>
+              <p>Download our app</p>
+              <div class="flex border-2 rounded-md p-3 mt-2">
+                <img class="mr-4" src="./images/playstore.png" alt="" />
+                <div>
+                  <p>Get it on</p>
+                  <h2 class="font-semibold">Play Store</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between mt-5 mb-5">
+          <div><p>@all rights reserved, P-Ticket services limited.2024</p></div>
+          <div>
+            <ul class="flex underline space-x-3">
+              <li><a href="">Terms & condition</a></li>
+              <li><a href="">Return & refund policy</a></li>
+              <li><a href="">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
