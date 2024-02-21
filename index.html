@@ -603,7 +603,7 @@
                     class="btn w-full bg-[#1DD100] text-white"
                     disabled="true"
                   >
-                    Next
+                    <label for="my_modal_7">Next</label>
                   </button>
                   <div class="flex justify-around">
                     <p class="text-gray-400 underline">Terms and Conditions</p>
@@ -653,6 +653,18 @@
         </div>
       </div>
     </footer>
+
+    <!-- The button to open modal -->
+
+    <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+    <div class="modal" role="dialog">
+      <div class="modal-box">
+        <h3 class="text-lg font-bold">Congrats !</h3>
+        <p class="py-4">You booked tickets !</p>
+      </div>
+      <label class="modal-backdrop" for="my_modal_7">Close</label>
+    </div>
+
     <script src="./js/utility.js"></script>
     <script src="./js/index.js"></script>
   </body>
